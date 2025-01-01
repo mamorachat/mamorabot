@@ -27,4 +27,4 @@ jobs:
         with:
           node-version: '20'
       - run: npm install
-      - run: prettier --check .
+      - run: npm run format

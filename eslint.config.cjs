@@ -1,4 +1,4 @@
-const tsPlugin = require('@typescript-eslint/eslint-plugin');
+const tsPlugin = require('@typescript-eslint/eslint-plugin')
 
 module.exports = [
   {
@@ -17,4 +17,4 @@ module.exports = [
       '@typescript-eslint/no-explicit-any': 'warn',
     },
   },
-];
+]
